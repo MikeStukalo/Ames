@@ -1,0 +1,25 @@
+Project 3 - Kaggle Competition - Housing Prices https://www.kaggle.com/c/house-prices-advanced-regression-techniques
+
+#Python code examples
+https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python#
+https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard#
+
+#research on ames data
+https://www.openintro.org/stat/data/?data=ames
+https://www.realtor.com/advice/buy/average-price-per-square-foot-for-a-home/
+
+#github 
+https://help.github.com/articles/creating-a-team/
+https://jameschambers.co/writing/git-team-workflow-cheatsheet/
+https://github.com/mikestukalo/ames
+
+
+
+
+
+
+
+
+
+
+
