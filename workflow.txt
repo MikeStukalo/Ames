@@ -6,6 +6,7 @@ Data compilation:
     - DJ Real Estate Index
     - Mortgage Rates
     - Corn price
+    - Unemployment https://data.bls.gov/
 
 - Impute missing variables
 
@@ -26,4 +27,4 @@ Model combination and testing
 Presentation:
 - Info on Ames
 - Visualizations
-- Shiny App  
+- Shiny App
