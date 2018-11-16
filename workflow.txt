@@ -2,23 +2,18 @@ Workflow
 
 Data compilation:
 - add new data (merger with existing dataset)
-    - School districts
-    - DJ Real Estate Index
-    - Mortgage Rates
-    - Corn price
+    - DJ Real Estate Index (Bloomberg)
+    - Mortgage Rates https://data.world/chasewillden/fannie-mae-mortgage-rates-1985-2017
+    - Corn price https://www.macrotrends.net/2532/corn-prices-historical-chart-data
     - Unemployment https://data.bls.gov/
 
 - Impute missing variables
 
-Feature engineering:
-- Descriptive stats
-- Boosted trees to identify factor influence
-    - Compare with random variable as a benchmark
+
 
 Model development:
-- Linear models (CV): price and log(price) as a response variable
-- Random forest, Boosted RF
-- SVM
+- Linear models (CV): feature engineering, e.g. log(price) as a response variable and log transformation of skewed variables, PCA
+- Decision trees, XGB: DecisionTree Regressor provides feature selection for linear regression on a set of variables
 
 Model combination and testing
 - Voting algorithm
