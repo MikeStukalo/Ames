@@ -9,8 +9,51 @@ Data compilation:
     - Unemployment https://data.bls.gov/
 
 - Impute missing variables
+------------------------------------------
+notebook 1 :
+new variables (websites)
+imputing missing variables
+removing outliers 
 
+log prices, taking log of variables for a normal gaussian distribution
+
+notebook 2:
+1. regression models
+linear model 1 : ridge
+2: lasso
+(trained on all variables)
+
+train data (divide into test and train); train data
+
+2. tree based models
+decision trees: get data (subset of important variables)
+linear model 1: ridge
+linear model 2: lasso
+
+Principal Components Analysis (transforms degrees of freedom, from 200 to 9)
+simple linear regession,
+ridge regression
+
+notebook 3:
+predicting test data 
+
+use each model to predict test prices 
+1. equally weighted models 
+2. weighted based on accuracy 
+
+pull answer key
+should have a lasso graph
+
+------------------------------------------
 Feature engineering:
+- Principal Components Analysis
+- Trees 
+
+- VIF.X
+forwards, bacwards testing (selection)
+ AIC
+ BIC
+
 - Descriptive stats
 - Boosted trees to identify factor influence
     - Compare with random variable as a benchmark
