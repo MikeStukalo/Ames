@@ -22,4 +22,3 @@ Model combination and testing
 Presentation:
 - Info on Ames
 - Visualizations
-- Shiny App
