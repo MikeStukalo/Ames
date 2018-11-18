@@ -15,6 +15,13 @@ Besides original Kaggle data we add several more features:
 
 All these variables are treated as lagged variables compareg to the date of house sale. 
 
+## Folder structure
+\ IndividualContributions - folders with files submitted by the team members
+\ tmp - temp folder to store and move data between notebooks
+\ data - datasets in .csv format
+\ output - output graphs for the presentation
+
+
 ## Models
 
 We use 4 linear models, a Random Forest Regressor and an XGB model to make predictions. 
